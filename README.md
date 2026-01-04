@@ -85,6 +85,10 @@ Think of it as **Obsidian meets Notion meets ChatGPT** - all in one beautiful, g
 
 #### AI Chat Panel
 ![AI Chat Panel](screenshots/ai-chat-panel.png)
+![AI Chat Panel](screenshots/chatbot.png)
+![AI Chat Panel](screenshots/c2.png)
+
+
 *Context-aware AI assistance for each node with task breakdown and smart suggestions*
 
 #### Create Node Modal
