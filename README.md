@@ -453,7 +453,7 @@ Frontend Action → API Call → Backend Processing → Database → Response
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/devbrain-the-architect.git
+git clone https://github.com/shams909/devbrain-the-architect.git
 cd devbrain-the-architect
 ```
 
