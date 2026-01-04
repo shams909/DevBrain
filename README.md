@@ -101,7 +101,8 @@ Think of it as **Obsidian meets Notion meets ChatGPT** - all in one beautiful, g
 
 <div align="center">
 
-https://github.com/user-attachments/assets/demo-devbrain.mp4
+https://github.com/user-attachments/assets/6a445c3e-df43-40c2-b9c9-c337b615b9ca
+
 
 <!-- Video file: demovideo/lv_0_20260104152635_1.mp4 -->
 
