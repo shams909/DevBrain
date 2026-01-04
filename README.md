@@ -97,6 +97,16 @@ Think of it as **Obsidian meets Notion meets ChatGPT** - all in one beautiful, g
 
 </div>
 
+### 🎥 Demo Video
+
+<div align="center">
+
+https://github.com/user-attachments/assets/lv_0_20260104152635_1.mp4
+
+*Watch DevBrain in action - see how to create nodes, switch between views, and use AI chat assistance*
+
+</div>
+
 ---
 
 ## 💎 Key Benefits
@@ -905,7 +915,7 @@ keyboard-first workflow
 
 <div align="center">
 
-**Thanks to my team members time and effort. I appreciate you all gyes.🖤**
+**Thanks to my team members time and effort. I appreciate you all guys.🖤**
 
 **Star ⭐ this repo if you find it helpful!**
 
