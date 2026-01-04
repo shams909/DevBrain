@@ -101,9 +101,9 @@ Think of it as **Obsidian meets Notion meets ChatGPT** - all in one beautiful, g
 
 <div align="center">
 
-[![Watch Demo Video](https://vumbnail.com/1151316355.jpg)](https://vimeo.com/1151316355)
+https://github.com/user-attachments/assets/demo-devbrain.mp4
 
-**[▶️ Watch Full Demo on Vimeo](https://vimeo.com/1151316355)**
+<!-- Video file: demovideo/lv_0_20260104152635_1.mp4 -->
 
 *Watch DevBrain in action - see how to create nodes, switch between views, and use AI chat assistance*
 
