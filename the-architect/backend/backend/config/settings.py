@@ -9,6 +9,21 @@ from datetime import timedelta
 # Build paths
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# Load environment variables from .env file (if python-dotenv is installed)
+try:
+    from dotenv import load_dotenv
+    load_dotenv(BASE_DIR / '.env')
+except ImportError:
+    # If dotenv not installed, try to manually load .env
+    env_file = BASE_DIR / '.env'
+    if env_file.exists():
+        with open(env_file) as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#') and '=' in line:
+                    key, value = line.split('=', 1)
+                    os.environ.setdefault(key.strip(), value.strip())
+
 SECRET_KEY = 'django-insecure-devbrain-dev-only-change-in-production'
 
 DEBUG = True
@@ -105,8 +120,8 @@ MEDIA_ROOT = BASE_DIR / 'media'
 DATA_UPLOAD_MAX_MEMORY_SIZE = 10485760  # 10MB
 FILE_UPLOAD_MAX_MEMORY_SIZE = 10485760  # 10MB
 
-# Gemini API
-GEMINI_API_KEY = 'Your_api_key'  
+# Gemini API - Load from environment variable for security
+GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY', 'INSERT_API_KEY_HERE')
 GEMINI_MODEL = 'gemini-2.5-flash'
 
 # Knowledge base settings
