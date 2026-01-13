@@ -474,7 +474,8 @@ python -m venv venv
 
 # Activate virtual environment
 # Windows:
-venv\Scripts\activate
+venv\Scripts\activate.ps1 # on powershell
+venv\Scripts\activate.bat # on command prompt
 # Mac/Linux:
 source venv/bin/activate
 
